@@ -1,0 +1,101 @@
+.grid {
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-background-color: rgb(66, 81, 96);
+}
+
+.button {
+    -fx-pref-width: 60;
+    -fx-pref-height: 60;
+    -fx-background-color: ghostwhite;
+    -fx-background-radius: 10;
+    -fx-font-family: Consolas;
+    -fx-font-size: 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: rgba(248, 248, 255, 0.8);
+}
+
+.button:pressed {
+    -fx-background-color: rgba(248, 248, 255, 0.5);
+}
+
+.equals {
+    -fx-pref-width: 190;
+    -fx-background-color: rgb(149, 229, 165);
+}
+
+.equals:hover {
+    -fx-background-color: rgba(149, 229, 165, 0.8);
+}
+
+.equals:pressed {
+    -fx-background-color: rgba(149, 229, 165, 0.5);
+}
+
+.operation {
+    -fx-background-color: #95c4e5;
+}
+
+.operation:hover {
+    -fx-background-color: rgba(149, 196, 229, 0.8);
+}
+
+.operation:pressed {
+    -fx-background-color: rgba(149, 196, 229, 0.5);
+}
+
+.delete {
+    -fx-background-color: #f65959;
+    -fx-text-fill: white;
+}
+
+.delete:hover {
+    -fx-background-color: rgba(246, 89, 89, 0.8);
+}
+
+.delete:pressed {
+    -fx-background-color: rgba(246, 89, 89, 0.5);
+}
+
+.text-field {
+    -fx-font-family: Consolas;
+    -fx-font-size: 20;
+    -fx-pref-height: 50;
+    -fx-pref-width: 300;
+    -fx-alignment: center;
+    -fx-cursor: pointer;
+}
+
+.label {
+    -fx-font-family: Consolas;
+    -fx-font-size: 40;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-pref-height: 50;
+    -fx-pref-width: 300;
+}
+
+.xyFields {
+    -fx-pref-width: 150;
+}
+
+.selectedField {
+    -fx-background-color: #ffe893;
+}
+
+.selectedField:hover {
+    -fx-background-color: #ffe893;
+}
+
+.selectedField:selected {
+    -fx-background-color: #ffe893;
+}
+
+.rightVBox {
+    -fx-alignment: center;
+    -fx-pref-height: 350;
+}
+
