@@ -1,7 +1,6 @@
 # JavafxCalculator
 
-A very simple calculator made with Java and JavaFX
-I try to apply some design patterns seen in the course Object-oriented Design
+A very simple calculator made with Java and JavaFX where I try to apply a couple design patterns seen in the course Object-oriented Design.
 
 ## Use
 
